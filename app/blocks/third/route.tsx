@@ -11,7 +11,7 @@ const app = new Frog({
 })
 
 
-app.frame('/third', (c) => {
+app.frame('blocks/third', (c) => {
   return c.res({
     action: '/',
     image: (

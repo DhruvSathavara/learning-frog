@@ -11,9 +11,9 @@ const app = new Frog({
 })
 
 
-app.frame('/second', (c) => {
+app.frame('blocks/second', (c) => {
   return c.res({
-    action: '/third',
+    action: 'blocks/third',
     image: (
       <div style={{
         color: 'white',
